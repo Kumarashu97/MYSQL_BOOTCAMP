@@ -1,0 +1,23 @@
+select COUNT(AMOUNT) AS COUNT
+FROM TRANSACTIONS;
+
+select MAX(AMOUNT) AS MAX_AMOUNT
+FROM TRANSACTIONS;
+
+select MIN(AMOUNT) AS MIN_AMOUNT
+FROM TRANSACTIONS;
+
+
+select SUM(AMOUNT) AS SUM
+FROM TRANSACTIONS;
+
+
+select AVG(AMOUNT) AS AVERAGE
+FROM TRANSACTIONS;
+
+
+select concat(first_name,"",last_name) as full_name
+from employees;
+
+
+

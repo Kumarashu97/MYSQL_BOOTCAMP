@@ -1,0 +1,18 @@
+select * FROM EMPLOYEES
+where JOB = "COOK" AND HIRE_DATE >= "2024-01-01";
+
+select * FROM EMPLOYEES
+where JOB = "COOK" OR HIRE_DATE >= "2024-01-01";
+
+select * FROM EMPLOYEES
+where  NOT JOB = "COOK" OR HIRE_DATE >= "2024-01-01";
+
+select * FROM EMPLOYEES
+where  NOT JOB = "COOK" AND NOT HIRE_DATE >= "2024-01-01";
+
+select * FROM EMPLOYEES
+where  HIRE_DATE between "2024-01-01" AND "2025-01-01";
+
+select * FROM EMPLOYEES
+where JOB IN("COOK","CASHIER","JANITOR");
+
